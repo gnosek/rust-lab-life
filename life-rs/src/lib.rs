@@ -5,3 +5,5 @@ pub mod ffi_export;
 #[cfg(feature = "ffi_import")]
 pub mod ffi_import;
 pub mod traits;
+#[cfg(feature = "wasm")]
+pub mod wasm;
